@@ -20,6 +20,7 @@ class Calc {
         return this.memory;
         } else {
              console.log(new Error('Must input two values to add'));
+             return this.memory;
         }
     }
 
@@ -83,4 +84,8 @@ class Calc {
             console.log(new Error('Invalid input: input must be a number'))
         }
     }
+}
+
+module.exports = {
+    Calc: Calc
 }
