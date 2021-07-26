@@ -10,10 +10,13 @@ describe('Calc', () => {
         const answer = calc.add(1,2);
         assert.ok(answer===3);
       });
-      it('logs an error with only one input and undefined memory', () => {
+      it('logs an error with only one input and undefined memory, returns undefined', () => {
         // Your test goes here
+        let answer;
+        try{
         const calc = new Calc();
-        const answer = calc.add(1);
+        answer = calc.add(1);
+        } catch(e) {console.log(`Error caught: ${e}`)}
         assert.ok(answer===undefined);
       });
     });
