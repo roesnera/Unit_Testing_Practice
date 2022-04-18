@@ -1,4 +1,5 @@
-const { assert } = require("chai");
+// const { assert } = require("chai");
+const assert = require('assert');
 const calcs = require('../calc.js');
 const Calc = calcs.Calc;
 
