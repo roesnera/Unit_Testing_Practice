@@ -9,3 +9,10 @@ Questions to guide your testing:
   Does the method handle invalid input appropriately?
   Does the method throw a descriptive error upon invalid input?
   Upon valid input, does the method work as expected (i.e. does the method produce the expected result)?
+
+Remeber our FIRST principles!
+  Fast
+  Independent/Isolated
+  Repeatable
+  Self-validating
+  Thorough
