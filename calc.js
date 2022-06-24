@@ -86,6 +86,8 @@ class Calc {
     }
 }
 
-module.exports = {
-    Calc: Calc
-}
+// module.exports = {
+//     Calc: Calc
+// }
+
+export default Calc;

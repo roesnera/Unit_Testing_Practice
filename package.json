@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "For this practice, you will be making some tests to find some issues with my code!",
   "main": "calc.js",
+  "type": "module",
   "scripts": {
     "test": "mocha"
   },
